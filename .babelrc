@@ -1,3 +1,6 @@
 {
-  "presets": ["node6"]
+  "presets": ["node6"],
+  "plugins": [
+    "transform-decorators-legacy"
+  ]
 }

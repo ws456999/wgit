@@ -1,8 +1,8 @@
 {
-  "name": "about-git",
+  "name": "wgit",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A CLI for semantic git",
+  "main": "dest",
   "bin": {
     "wgit": "dest/index.js"
   },
@@ -39,6 +39,21 @@
     "update-notifier": "^2.1.0",
     "yargs": "^7.0.2"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ws456999/wgit.git"
+  },
+  "author": "ws456999 <ruiru5921@sina.com>",
+  "bugs": {
+    "url": "https://github.com/ws456999/wgit/issues"
+  },
+  "keywords": [
+    "semantic",
+    "git",
+    "commit",
+    "checkout",
+    "workflow"
+  ],
+  "homepage": "https://github.com/ws456999/wgit",
+  "license": "MIT"
 }
